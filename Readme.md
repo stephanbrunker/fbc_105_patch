@@ -21,4 +21,4 @@ Because of the restriction for binaries on github, these binaries are compressed
 * inc\win\shellapi.bi: changed ShellNotifyIcon
 * inc\win\winbase.bi: changed _WIN32_WINNT value for GetQueuedCompletionStatusEx, CancelIoEx, CancelSynchronousIo
 * inc\win\winerror.bi: added ERROR_HANDLES_CLOSED, ERROR_OPERATION_ABORTED
-
+* inc\win\winnt.bi: changed brackets for SID Authorities so that they'll work with _SID_IDENTIFIER_AUTHORITY
